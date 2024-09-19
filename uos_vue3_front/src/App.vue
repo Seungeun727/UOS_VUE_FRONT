@@ -3,7 +3,9 @@
 
 <template>
   <header>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <router-view />
+    </div>
   </header>
 
   <main></main>
